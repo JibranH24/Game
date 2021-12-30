@@ -1,0 +1,43 @@
+canvas{
+    background-image: url("gamePics/oceanBackground.jpg");
+    background-size: cover;
+    border:1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    border: 3px solid white;
+}
+body{
+    background-image: url("gamePics/body.jpg");
+    background-size:cover;
+}
+h1{
+    font-size: 7vh;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    color:aquamarine;
+}
+div{
+    position:absolute;
+    display: block;
+    gap:40px;
+    bottom:5vh;
+    font-size: 3vh;
+    font-family: 'Roboto Slab', serif;
+    color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.playerIcon{
+    
+    height:5vh
+
+}
+.winner{
+    font-size: 5vh;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    color: aquamarine;
+}
